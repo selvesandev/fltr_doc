@@ -57,4 +57,11 @@ The stack has `alignment` option with nine possible values. `centerLeft`,`topLef
 
 
 
+### Height and Width of screen.
+```
+    Size size = MediaQuery.of(context).size;
+    print(size.height);
+    print(size.width);
+
+```
 
