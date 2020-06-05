@@ -15,3 +15,7 @@ Both `Row` and `Column` have three other controls
 
 
 ### Baseline
+The baseline is a special crossAxisAlignment option that is useful when rendering text. If we have multiple text widget in a row and they are all different sizes this option gives you a way of aligning to their common baseline i.e all the text equally align at the same place at their bottom.
+
+
+### Stack
