@@ -19,3 +19,42 @@ The baseline is a special crossAxisAlignment option that is useful when renderin
 
 
 ### Stack
+To stack things on top of each other.
+
+```
+Stack(
+              children: <Widget>[
+                SizedBox(
+                  width: 300,
+                  height: 300,
+                  child: Container(color: Colors.green),
+                ),
+                SizedBox(
+                  width: 200,
+                  height: 200,
+                  child: Container(color: Colors.yellow),
+                ),
+                SizedBox(
+                  width: 100,
+                  height: 100,
+                  child: Container(color: Colors.red),
+                )
+              ],
+            ))
+```
+The stack has `alignment` option with nine possible values. `centerLeft`,`topLeft`,`topCenter` etc.
+
+**Positioned Widget** 
+
+
+
+### Debugging / Logging / Breakpoints (https://www.youtube.com/watch?v=P9P6o7OLS00)
+
+##### Print Function
+* print("String here")
+* `dev.log("message", name: '__selvesan', error: {"data": "Error of data"});`
+* `dev.debugger();` to add break points.
+
+
+
+
